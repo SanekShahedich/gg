@@ -1,0 +1,21 @@
+{
+  "name": "anime-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot: anime info by name (MAL + AniList, fuzzy search)",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fastest-levenshtein": "^1.0.16",
+    "franc-min": "^6.2.0",
+    "fuse.js": "^7.1.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
